@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚗 Car Racing Game
 
 A simple and fun car racing game built with HTML, CSS, and JavaScript.
@@ -56,3 +57,6 @@ Add the following sounds to the `sounds/` folder:
 Simply right-click `index.html` and select **Open with Browser**, or use a local server like Live Server extension in VS Code.
 
 Enjoy the game! 🎮
+=======
+# simple-car-racing-game
+>>>>>>> 0fea26b3f30d3350794574c9230957e9f6d85b91
