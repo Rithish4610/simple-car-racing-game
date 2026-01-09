@@ -1,3 +1,6 @@
+🎮 Play Now
+ https://rithish4610.github.io/simple-car-racing-game/
+
 # 🚗 5-Level Car Racing Game
 
 A fun, animated car racing game built with **HTML, CSS, and JavaScript**.  
