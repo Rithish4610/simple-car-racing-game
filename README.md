@@ -1,62 +1,41 @@
-<<<<<<< HEAD
-# 🚗 Car Racing Game
+# 🚗 5-Level Car Racing Game
 
-A simple and fun car racing game built with HTML, CSS, and JavaScript.
+A fun, animated car racing game built with **HTML, CSS, and JavaScript**.  
+Playable on **desktop and mobile**, with sound, animation, and rewards.  
 
-## 🎮 How to Play
+---
 
-1. Open `index.html` in your browser
-2. Click **Start Game** to begin
-3. Use **Arrow Left** and **Arrow Right** keys to move the car (desktop)
-4. Use the **⬅** and **➡** buttons for mobile controls
-5. Avoid enemy cars and survive as long as possible!
+## 🎮 Features
 
-## 🏆 Features
+- **5 Levels** with increasing speed  
+- **Each level lasts 12 seconds**  
+- **Progress bar** showing current level time  
+- **Confetti animation** and **trophy image** on winning  
+- **Sound effects**: engine + crash  
+- **Mobile-friendly controls** (touch buttons and swipe)  
+- **High Score saving** (persistent using localStorage)  
+- Fully playable in browser  
 
-- **3 Difficulty Levels** - Speed increases as you progress
-- **High Score Tracking** - Saves your best score locally
-- **Sound Effects** - Engine and crash sounds
-- **Mobile Support** - Touch controls for mobile devices
+---
 
-## 📁 Project Structure
+## 🕹 How to Play
 
-```
-car-racing-game/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── images/
-│   ├── player.png   (your car - top view)
-│   ├── enemy.png    (enemy cars)
-│   └── road.png     (road background)
-└── sounds/
-    ├── engine.mp3   (engine loop sound)
-    └── crash.mp3    (crash sound effect)
-```
+1. Open `index.html` in a web browser  
+2. Use **Arrow keys** (⬅️ / ➡️) on desktop  
+3. Use **on-screen buttons** or **swipe left/right** on mobile  
+4. Avoid enemy cars  
+5. Survive and reach **Level 5** to win  
 
-## 🖼️ Adding Assets
+---
 
-### Images (required)
-Add the following images to the `images/` folder:
-- `player.png` - Top-view image of player's car (50x80px recommended)
-- `enemy.png` - Top-view image of enemy car (50x80px recommended)
-- `road.png` - Road background texture (300x500px recommended)
+## 🏆 Win Reward
 
-### Sounds (optional)
-Add the following sounds to the `sounds/` folder:
-- `engine.mp3` - Engine running sound (will loop)
-- `crash.mp3` - Crash sound effect
+- ⭐⭐⭐ Stars  
+- 🎖 Trophy image  
+- 🎊 Confetti animation  
+- **Final Score displayed**
 
-**Free asset sources:**
-- [Pixabay](https://pixabay.com/)
-- [Mixkit](https://mixkit.co/)
+---
 
-## 🚀 Running the Game
+## 📂 Folder Structure
 
-Simply right-click `index.html` and select **Open with Browser**, or use a local server like Live Server extension in VS Code.
-
-Enjoy the game! 🎮
-=======
-# simple-car-racing-game
->>>>>>> 0fea26b3f30d3350794574c9230957e9f6d85b91
