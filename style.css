@@ -14,9 +14,8 @@ body {
 }
 
 .gameArea {
-    width: 90vw;       /* 90% of screen width */
-    max-width: 400px;  /* optional limit */
-    height: calc(90vw * 5/3); /* keeps 3:5 aspect ratio */
+    width: 400px;      /* original desktop width */
+    height: 600px;     /* original desktop height */
     background: url("images/road.png");
     background-size: cover;
     margin: 20px auto;
@@ -57,29 +56,41 @@ body {
 
 .mobile-controls {
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;          /* slightly above screen edge */
     width: 100%;
-    display: flex;          /* always flex, show buttons */
+    display: flex;
     justify-content: space-around;
-    z-index: 100;
+    z-index: 9999;
 }
 
 .mobile-controls button {
-    width: 15vw;
-    height: 15vw;
-    min-width: 60px;
-    min-height: 60px;
-    font-size: 5vw;
+    width: 60px;           /* fixed size */
+    height: 60px;
+    font-size: 24px;
     border-radius: 50%;
     border: none;
     background: #222;
     color: white;
     opacity: 0.8;
+    touch-action: none;
 }
 
 @media (min-width: 769px) {
     .mobile-controls {
-        display: none;      /* hide on desktop */
+        display: none;       /* hide on desktop */
+    }
+}
+
+@media (max-width: 768px) {   /* applies to tablets/phones */
+    .gameArea {
+        width: 300px;        /* smaller for mobile */
+        height: 500px;       /* smaller for mobile */
+    }
+
+    .mobile-controls button {
+        width: 60px;         /* mobile button size */
+        height: 60px;
+        font-size: 24px;
     }
 }
 
