@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background: #111;
+    color: white;
+    font-family: Arial;
+}
+
+.gameArea {
+    width: 300px;
+    height: 500px;
+    background: url("images/road.png");
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.playerCar {
+    width: 50px;
+    height: 80px;
+    background: url("images/player.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 20px;
+    left: 125px;
+}
+
+.enemyCar {
+    width: 50px;
+    height: 80px;
+    background: url("images/enemy.png");
+    background-size: cover;
+    position: absolute;
+    top: -100px;
+}
+
+.menu {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.mobile-controls {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.mobile-controls button {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #222;
+    color: white;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .mobile-controls {
+        display: flex;
+    }
+}
+
+.progress {
+    width: 300px;
+    height: 10px;
+    background: #555;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progressBar {
+    height: 100%;
+    width: 0%;
+    background: lime;
+    transition: width 0.3s;
+}

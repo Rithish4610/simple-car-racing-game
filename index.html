@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="menu" id="startMenu">
+    <h1>🚗 Car Racing Game</h1>
+    <button onclick="startGame()">Start Game</button>
+</div>
+
+<p id="level">Level: 1</p>
+<p id="score">Score: 0</p>
+<p id="highScore">High Score: 0</p>
+<p id="levelMsg"></p>
+<div class="progress">
+    <div id="progressBar"></div>
+</div>
+
+<div class="gameArea">
+    <div class="playerCar"></div>
+</div>
+
+<div class="mobile-controls">
+    <button id="leftBtn">⬅️</button>
+    <button id="rightBtn">➡️</button>
+</div>
+
+<div class="menu" id="gameOver" style="display:none;">
+    <h1>💥 Game Over</h1>
+    <p id="finalScore"></p>
+    <button onclick="restartGame()">Restart</button>
+</div>
+
+<audio id="engineSound" src="sounds/engine.mp3" loop></audio>
+<audio id="crashSound" src="sounds/crash.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
